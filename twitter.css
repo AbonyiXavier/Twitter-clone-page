@@ -1,0 +1,310 @@
+  body {
+      font-family: "Segoe UI",
+          Arial,
+          sans-serif;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .image {
+      background: url('./images/twitter.png') center/cover no-repeat;
+      min-height: 65vh;
+      background-color: #156fa7;
+      background-blend-mode: soft-light;
+  }
+
+  p {
+      display: flex;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 48px auto;
+      color: #fff;
+      padding-left: 25vh;
+  }
+
+  .first-part {
+      float: left;
+      width: 50%;
+      padding-top: 25vh;
+  }
+
+  .second-part {
+      float: right;
+      max-width: 400px;
+      /* padding-right: 26vh; */
+      padding-top: 20vh;
+      margin-right: 20vh;
+      /* margin-top: 20vh; */
+  }
+
+  .fas,
+  .far {
+      padding-right: 18px;
+      font-size: 25px;
+  }
+
+  .fab {
+      font-size: 45px;
+      color: #1b95e0;
+  }
+
+  .short-login {
+      border-radius: 120px;
+      box-shadow: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      /* line-height: 20px; */
+      padding: 6px 10px;
+      position: relative;
+      text-align: center;
+      /* white-space: nowrap; */
+      background-color: #fff;
+      border: 1px solid #1da1f2;
+      color: #1da1f2;
+      float: right;
+      /* margin-left: 36vh; */
+      text-decoration: none;
+      outline-offset: 2px;
+      outline: 2px;
+  }
+
+  .short-login:hover {
+      /* color: #b2d6ec; */
+      background-color: #e8f1f7;
+  }
+
+  div .happening {
+      font-size: 18px;
+      line-height: 32px;
+      margin-bottom: 48px;
+  }
+
+  .join {
+      color: #14171a;
+      font-size: 18px;
+      line-height: 24px;
+  }
+
+  .signup {
+      border-radius: 100px;
+      box-shadow: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      padding-right: 9rem;
+      padding-left: 9rem;
+      padding-bottom: 0.6rem;
+      padding-top: 0.6rem;
+      /* position: relative; */
+      text-align: center;
+      display: block;
+      margin-bottom: 16px;
+      background-color: #1da1f2;
+      border: 1px solid #1da1f2;
+      color: #fff;
+      outline-offset: 2px;
+      outline: 2px;
+  }
+
+  .signup:hover {
+      background-color: #195b85;
+  }
+
+  .large-login {
+      border-radius: 100px;
+      box-shadow: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      padding-right: 9.2rem;
+      padding-left: 9.2rem;
+      padding-bottom: 0.6rem;
+      padding-top: 0.6rem;
+      text-align: center;
+      display: block;
+      margin-bottom: 16px;
+      border: 1px solid #1da1f2;
+      color: #1da1f2;
+      outline-offset: 2px;
+      outline: 5px;
+  }
+
+  .large-login:hover {
+      background-color: #e8f1f7;
+  }
+
+  .footer {
+      padding-top: 90vh;
+      /* padding-bottom: 10px; */
+      background-color: rgba(255, 255, 255, 0.87);
+  }
+
+  .footer ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 12px 0 12px;
+  }
+
+  .footer ul li a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, .54);
+      color: #aab8c2;
+      font-size: 12px;
+  }
+
+  .footer ul li a:hover {
+      text-decoration: underline;
+
+  }
+
+  @media only screen and (max-width: 740px) {
+
+      .first-part {
+          float: none;
+          width: 100%;
+          padding-top: 8vh;
+      }
+
+      p {
+          display: flex;
+          font-size: 18px;
+          font-weight: bold;
+          padding-left: 10vh;
+      }
+
+      .image {
+          min-height: 50vh;
+      }
+
+      .second-part {
+          float: none;
+          /* width: 100%; */
+          padding-left: 14vh;
+          padding-top: 5vh;
+      }
+
+      div .happening {
+          font-size: 13px;
+          line-height: 32px;
+          margin-bottom: 48px;
+      }
+
+      .fab {
+          font-size: 38px;
+          /* padding-left: 10px; */
+      }
+
+      .short-login {
+          float: none;
+          margin-left: 200px;
+      }
+
+      .signup {
+          font-size: 14px;
+          padding-right: 8rem;
+          padding-left: 8rem;
+          padding-bottom: 0.7rem;
+          padding-top: 0.7rem;
+      }
+
+      .large-login {
+          font-size: 14px;
+          padding-right: 8.2rem;
+          padding-left: 8.2rem;
+          padding-bottom: 0.6rem;
+          padding-top: 0.6rem;
+      }
+
+      .footer {
+          padding-top: 0.2vh;
+      }
+
+  }
+
+  @media only screen and (max-width: 320px) and (max-width: 587px) {
+      .first-part {
+          float: none;
+          /* width: 100%; */
+          padding-top: 2vh;
+      }
+
+      p {
+          display: flex;
+          font-size: 18px;
+          font-weight: bold;
+          padding-left: 8vh;
+      }
+
+      .image {
+          min-height: 50vh;
+      }
+
+      .second-part {
+          float: none;
+          width: 190px;
+          padding-left: 10vh;
+          padding-top: 5vh;
+      }
+
+      div .happening {
+          font-size: 12px;
+          /* line-height: 32px; */
+          margin-bottom: 48px;
+      }
+
+      .fab {
+          font-size: 34px;
+          /* padding-left: 10px; */
+      }
+
+      .short-login {
+          float: none;
+          margin-left: 60px;
+      }
+
+      .signup {
+          font-size: 11px;
+          padding-right: 4rem;
+          padding-left: 4rem;
+          padding-bottom: 0.5rem;
+          padding-top: 0.5rem;
+      }
+
+      .large-login {
+          font-size: 11px;
+          padding-right: 4.2rem;
+          padding-left: 4.2rem;
+          padding-bottom: 0.4rem;
+          padding-top: 0.4rem;
+      }
+
+      /* .short-login {
+          float: none;
+          margin-left: 3px;
+      }
+
+      .signup {
+          font-size: 11px;
+          padding-right: 5rem;
+          padding-left: 5rem;
+          padding-bottom: 0.5rem;
+          padding-top: 0.5rem;
+          width: 95%;
+      }
+
+      .large-login {
+          font-size: 10px;
+          padding-right: 5.2rem;
+          padding-left: 5.2rem;
+          padding-bottom: 0.4rem;
+          padding-top: 0.4rem;
+          width: 95%;
+      } */
+
+      .footer {
+          padding-top: 0.2vh;
+      }
+  }
+
+  @media only screen and (max-width: 1023px) {}
