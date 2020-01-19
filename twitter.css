@@ -242,7 +242,7 @@
 
       .second-part {
           float: none;
-          width: 190px;
+          width: 120px;
           padding-left: 8vh;
           padding-top: 5vh;
       }
@@ -260,23 +260,23 @@
 
       .short-login {
           float: none;
-          margin-left: 50px;
+          margin-left: 15px;
       }
 
       .signup {
           font-size: 10px;
-          padding-right: 2.2rem;
-          padding-left: 2.2rem;
-          padding-bottom: 0.3rem;
-          padding-top: 0.3rem;
+          padding-right: 1.2rem;
+          padding-left: 1.2rem;
+          padding-bottom: 0.1rem;
+          padding-top: 0.1rem;
       }
 
       .large-login {
           font-size: 10px;
-          padding-right: 2.5rem;
-          padding-left: 2.5rem;
-          padding-bottom: 0.3rem;
-          padding-top: 0.3rem;
+          padding-right: 1.2rem;
+          padding-left: 1.2rem;
+          padding-bottom: 0.1rem;
+          padding-top: 0.1rem;
       }
 
       /* .short-login {
