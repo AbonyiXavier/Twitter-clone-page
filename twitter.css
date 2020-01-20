@@ -66,6 +66,7 @@
       background-color: #fff;
       border: 1px solid #1da1f2;
       color: #1da1f2;
+      color: #1da1f2;
       float: right;
       /* margin-left: 36vh; */
       text-decoration: none;
@@ -257,7 +258,7 @@
           float: none;
           /* width: 120px; */
           max-width: 100px;
-          padding-left: 6vh;
+          padding-left: 2vh;
           padding-top: 5vh;
       }
 
@@ -274,7 +275,7 @@
 
       .short-login {
           float: none;
-          margin-left: 8px;
+          margin-left: 4px;
       }
 
       .signup {
