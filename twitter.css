@@ -7,10 +7,14 @@
   }
 
   .image {
-      background: url('./images/twitter.png') center/cover no-repeat;
+      background: url('./images/icon.jpg') center/cover no-repeat;
       min-height: 65vh;
-      background-color: #156fa7;
+      /* background-color: #006db1; */
+      background-color: #095381;
       background-blend-mode: soft-light;
+      /* background-size: 100vh; */
+      background-position: left;
+      background-size: 1500px;
   }
 
   p {
@@ -159,11 +163,15 @@
   }
 
   @media only screen and (max-width: 740px) {
+      .image {
+          background-position: left;
+          background-size: 1000px;
+      }
 
       .first-part {
           float: none;
           width: 100%;
-          padding-top: 8vh;
+          padding-top: 3vh;
       }
 
       p {
@@ -174,7 +182,7 @@
       }
 
       .image {
-          min-height: 50vh;
+          min-height: 40vh;
       }
 
       .second-part {
@@ -223,6 +231,11 @@
   }
 
   @media only screen and (max-width: 320px) and (max-width: 587px) {
+      .image {
+          background-position: left;
+          background-size: 650px;
+      }
+
       .first-part {
           float: none;
           /* width: 100%; */
@@ -243,7 +256,7 @@
       .second-part {
           float: none;
           width: 120px;
-          padding-left: 8vh;
+          padding-left: 6vh;
           padding-top: 5vh;
       }
 
@@ -260,23 +273,23 @@
 
       .short-login {
           float: none;
-          margin-left: 15px;
+          margin-left: 12px;
       }
 
       .signup {
           font-size: 10px;
-          padding-right: 1.2rem;
-          padding-left: 1.2rem;
-          padding-bottom: 0.1rem;
-          padding-top: 0.1rem;
+          padding-right: 10px;
+          padding-left: 10px;
+          padding-bottom: 5px;
+          padding-top: 5px;
       }
 
       .large-login {
           font-size: 10px;
-          padding-right: 1.2rem;
-          padding-left: 1.2rem;
-          padding-bottom: 0.1rem;
-          padding-top: 0.1rem;
+          padding-right: 12px;
+          padding-left: 12px;
+          padding-bottom: 5px;
+          padding-top: 5px;
       }
 
       /* .short-login {
